@@ -11,6 +11,46 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+<style>
+.button {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+</style>
+
+
 </head>
 <body>
   <header>
@@ -22,14 +62,14 @@
       <input type="checkbox" id="show-menu">
       <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
       <div class="content">
-      <div class="logo"><a href="index.html">ඉගෙනුම</a></div>
+      <div class="logo"><a href="index.html">edu.greenvibes.lk</a></div>
         <ul class="links">
-          <li><a href="index.html">මුල් පිටුව</a></li>
-          <li><a href="#">පිටුව පිළිබද</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About Us</a></li>
           <li>
-            <a href="#" class="desktop-link">ප්‍රශ්න පත්‍ර</a>
+            <a href="#" class="desktop-link">Past Papers</a>
             <input type="checkbox" id="show-features">
-            <label for="show-features">ප්‍රශ්න පත්‍ර</label>
+            <label for="show-features">Past Papers</label>
             <ul>
               <li><a href="#">Drop Menu 1</a></li>
               <li><a href="#">Drop Menu 2</a></li>
@@ -38,9 +78,9 @@
             </ul>
           </li>
           <li>
-            <a href="#" class="desktop-link">වෙනත්</a>
+            <a href="#" class="desktop-link">Others</a>
             <input type="checkbox" id="show-services">
-            <label for="show-services">වෙනත්</label>
+            <label for="show-services">Others</label>
             <ul>
               <li><a href="#">Drop Menu 1</a></li>
               <li><a href="#">Drop Menu 2</a></li>
@@ -50,24 +90,21 @@
                 <input type="checkbox" id="show-items">
                 <label for="show-items">Contact</label>
                 <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
+                  <li><a href="contact.html">Education</a></li>
+                  <li><a href="#">Mymeal</a></li>
+                  <li><a href="#">Planting</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li><a href="#">අදහස් සහ යොජනා</a></li>
+          <li><a href="#">Blog</a></li>
         </ul>
       </div>
-
-      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
-      <form action="#" class="search-box">
-        <input type="text" placeholder="සොයන්න..." required>
-        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
-      </form>
+     <button type="submit" class="button">Register</button>
     </nav>
-  </div>  
+  </div>
+
+
     </header>
 
 <!--ස්ලයිඩ් ෂො එක-->
@@ -126,16 +163,6 @@
     </div>
   </div>
 
-        
-     <div class="social-icons">
-         <ul>
-            <li><a href="facebook.com/greenvibeslk"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="instagram.com/greenvibeslk"><i class="fa fa-instagram"></i></a></li>
-         </ul>
-     </div>
-    </div>
 
  <!--ෆූටර් එක-->
 
