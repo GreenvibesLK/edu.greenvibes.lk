@@ -1,2 +1,5 @@
 # -
-අන්තර්ජාලයේ පවතින ඊ ඉගෙනුම් ක්‍රියාවලියේ පවර්හින යම් යම් අඩු ලුහුඩුකම් පියවීම සදහා නිර්මානය කරන වෙබ් යෙදව්මකි
+E-Learning is the process of using technology to assist learning and tutoring.
+Enhancement in how the Internet works has allowed websites to deliver a visual and 
+immersive learning experience on a computer or mobile device, 
+perfect for stimulating a student and encouraging learning
