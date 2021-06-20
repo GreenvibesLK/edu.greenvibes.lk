@@ -60,16 +60,16 @@ footer{
   background: #32CD32;
   top: -10px;
 }
-.left .content p{
+.center .content p{
   text-align: justify;
 }
-.left .content .social{
+.center .content .social{
   margin: 20px 0 0 0;
 }
-.left .content .social a{
+.center .content .social a{
   padding: 0 2px;
 }
-.left .content .social a span{
+.center .content .social a span{
   height: 40px;
   width: 40px;
   background: #1a1a1a;
@@ -79,7 +79,7 @@ footer{
   border-radius: 5px;
   transition: 0.3s;
 }
-.left .content .social a span:hover{
+.center .content .social a span:hover{
   background: #32CD32;
 }
 .center .content .fas{
@@ -109,40 +109,7 @@ footer{
   margin-bottom: 2px;
   color: #656565;
 }
-.right form .msg{
-  margin-top: 10px;
-}
-.right form input, .right form textarea{
-  width: 100%;
-  font-size: 1.0625rem;
-  background: #151515;
-  padding-left: 10px;
-  border: 1px solid #222222;
-}
-.right form input:focus,
-.right form textarea:focus{
-  outline-color: #3498db;
-}
-.right form input{
-  height: 35px;
-}
-.right form .btn{
-  margin-top: 10px;
-}
-.right form .btn button{
-  height: 40px;
-  width: 100%;
-  border: none;
-  outline: none;
-  background: #f12020;
-  font-size: 1.0625rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: .3s;
-}
-.right form .btn button:hover{
-  background: #000;
-}
+
 .bottom center{
   padding: 5px;
   font-size: 0.9375rem;
