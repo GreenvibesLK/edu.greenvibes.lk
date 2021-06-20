@@ -45,9 +45,10 @@ footer{
   position: relative;
 }
 .box .content:before{
-  position: absolute;
+  position: relative;
   content: '';
   top: -10px;
+  padding-left: 10px;
   height: 2px;
   width: 100%;
   background: #1a1a1a;
@@ -59,55 +60,6 @@ footer{
   width: 15%;
   background: #32CD32;
   top: -10px;
-}
-.center .content p{
-  text-align: justify;
-}
-.center .content .social{
-  margin: 20px 0 0 0;
-}
-.center .content .social a{
-  padding: 0 2px;
-}
-.center .content .social a span{
-  height: 40px;
-  width: 40px;
-  background: #1a1a1a;
-  line-height: 40px;
-  text-align: center;
-  font-size: 18px;
-  border-radius: 5px;
-  transition: 0.3s;
-}
-.center .content .social a span:hover{
-  background: #32CD32;
-}
-.center .content .fas{
-  font-size: 1.4375rem;
-  background: #1a1a1a;
-  height: 45px;
-  width: 45px;
-  line-height: 45px;
-  text-align: center;
-  border-radius: 50%;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.center .content .fas:hover{
-  background: #f12020;
-}
-.center .content .text{
-  font-size: 1.0625rem;
-  font-weight: 500;
-  padding-left: 10px;
-}
-.center .content .phone{
-  margin: 15px 0;
-}
-.right form .text{
-  font-size: 1.0625rem;
-  margin-bottom: 2px;
-  color: #656565;
 }
 
 .bottom center{
