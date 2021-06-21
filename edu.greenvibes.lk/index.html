@@ -4,109 +4,141 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="cssfile.css">
     <link rel="stylesheet" href="footer.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/svg" href="img/edu favicon.svg">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/subscribe-better.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/preset1.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
-<style>
-.button {
-  position: relative;
-  background-color: #4CAF50;
-  border: none;
-  font-size: 14px;
-  color: #FFFFFF;
-  padding: 10px;
-  width: 100px;
-  text-align: center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.button:after {
-  content: "";
-  background: #f1f1f1;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
-}
-
-.button:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
-}
-</style>
-
+    <link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/edu favicon black.png">
 
 </head>
 <body>
   <header>
-	<div class="header">
-     <div class="navbar">
-         <div class="wrapper">
-    <nav>
-      <input type="checkbox" id="show-search">
-      <input type="checkbox" id="show-menu">
-      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
-      <div class="content">
-      <div class="logo"><a href="index.html">edu.greenvibes.lk</a></div>
-        <ul class="links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li>
-            <a href="#" class="desktop-link">Past Papers</a>
-            <input type="checkbox" id="show-features">
-            <label for="show-features">Past Papers</label>
-            <ul>
-              <li><a href="#">Drop Menu 1</a></li>
-              <li><a href="#">Drop Menu 2</a></li>
-              <li><a href="#">Drop Menu 3</a></li>
-              <li><a href="#">Drop Menu 4</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#" class="desktop-link">Others</a>
-            <input type="checkbox" id="show-services">
-            <label for="show-services">Others</label>
-            <ul>
-              <li><a href="#">Drop Menu 1</a></li>
-              <li><a href="#">Drop Menu 2</a></li>
-              <li><a href="#">Drop Menu 3</a></li>
-              <li>
-                <a href="#" class="desktop-link">Contact</a>
-                <input type="checkbox" id="show-items">
-                <label for="show-items">Contact</label>
-                <ul>
-                  <li><a href="contact.html">Education</a></li>
-                  <li><a href="#">Mymeal</a></li>
-                  <li><a href="#">Planting</a></li>
+    <div id="main-wrapper" class="homepage">
+        <header id="navigation">
+    <div class="navbar navbar-expand-lg" role="banner">
+        <div class="container">
+            <a class="secondary-logo" href="#">
+                <img class="img-fluid" src="img/edu favicon black.png" alt="logo">
+            </a>
+        </div>
+        <div class="topbar">
+            <div class="container">
+                <div id="topbar" class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img class="main-logo img-fluid" src="img/edu favicon black.png" height="10%" width="10%" alt="logo">
+                        <div style="display: inline-grid;">
+                            <span style="font-size: 30px;color: black;">Edu.GreenVibes.lk</span><span style="font-size: 15px;color: #aeaeae;display: block;line-height: 3px;">www.greenvibes.lk</span>
+                        </div>
+                    </a>
+                    <div id="topbar-right">
+                        <div class="dropdown language-dropdown">
+                            <a data-toggle="dropdown" href="#"><span class="change-text">English</span> <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu language-change">
+                                <li><a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en">English</a></li>
+                                <a href="#googtrans(en|si)" class="lang-en lang-select" data-lang="si">Sinhala</a></li>
+                            </ul>
+                        </div>
+                        <div id="date-time"></div>
+                        <div id="weather">
+                            <span class="weather-icon">
+                                <img src="img/weather.png" alt="Icon" class="img-fluid">
+                            </span>
+                            <span class="temp"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menubar" class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-align-justify"></i></span>
+            </button>
+            <a class="navbar-brand d-lg-none" href="#">
+                <img class="main-logo img-fluid" src="img/edu favicon black.png" alt="logo" width="33">
+                <div style="display: inline-grid;">
+                    <span style="font-size: 18px;color: black;">Edu.GreenVibes.lk</span><span style="font-size: 12px;color: #aeaeae;display: block;line-height: 3px;">www.greenvibes.lk</span>
+                </div>
+            </a>
+            <nav id="mainmenu" class="navbar-left collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="home dropdown"><a href="#" class="" >Home</a>
+
+                    </li>
+                    <li class="business dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Past-Papers</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">A/L's Past-Papers</a></li>
+                            <li><a href="#">O/L's Past-Papers</a></li>
+                            <li><a href="#">5 Schoolership Past-Papers</a></li>
+                        </ul>
+                    </li>
+                    <li class="politics dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">School Past-Papers</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">A/L's Past-Papers</a></li>
+                            <li><a href="#">O/L's Past-Papers</a></li>
+                        </ul>
+                    </li>
+                    <li class="environment dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Other</a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact-US</a></li>
+                        </ul>
+
+                    </li>
+
                 </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </div>
-     <button type="submit" class="button">Register</button>
-    </nav>
-  </div>
+            </nav>
+            <div class="searchNlogin">
+                <ul>
+                    <li class="search-icon"><i class="fa fa-search"></i></li>
+                    <li class="search-icon"> </li>
 
-
-    </header>
+                    <!--User Privilages-->
+                    <!-- <li class="dropdown user-panel"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+                        <div class="dropdown-menu top-user-section">
+                            <div class="top-user-form">
+                                <form id="top-login" role="form">
+                                    <div class="input-group" id="top-login-username">
+                                        <span class="input-group-addon"><img src="https://onlineexams.gov.lk/onlineapps/assets/ns/images/others/user-icon.png" alt="Image"></span>
+                                        <input type="text" class="form-control" placeholder="Username" required="">
+                                    </div>
+                                    <div class="input-group" id="top-login-password">
+                                        <span class="input-group-addon"><img src="https://onlineexams.gov.lk/onlineapps/assets/ns/images/others/password-icon.png" alt="Image"></span>
+                                        <input type="password" class="form-control" placeholder="Password" required="">
+                                    </div>
+                                    <div>
+                                        <p class="reset-user">Forgot <a href="#">Password/Username?</a></p>
+                                        <button class="btn btn-danger" type="submit">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="create-account">
+                                <a href="#">Create a New Account</a>
+                            </div>
+                        </div>
+                    </li> -->
+                    
+                </ul>
+                <div class="search">
+                    <form role="form" action="#" method="GET">
+                        <input type="text" class="search-form" autocomplete="off" placeholder="Type & Press Enter" name="s">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header> 
 
 <!--ස්ලයිඩ් ෂො එක-->
   <body style="height: auto; width: 1550px;  ">
@@ -193,6 +225,19 @@
 
 <!--ස්ලයිඩ් ෂො එකේ js ලින්ක් එක-->
 <script src="jsfile.js"></script>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js" ></script>
+<script type="text/javascript" src="js/owl.carousel.min.js" ></script>
+<script type="text/javascript" src="js/jquery.easy-ticker.min.js"></script>
+<script type="text/javascript" src="js/jquery.sticky-kit.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/jquery.subscribe-better.min.js"></script>
+<script type="text/javascript" src="js/theia-sticky-sidebar.min.js"></script>
+<script type="text/javascript" src="js/switcher.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 
 </body>
