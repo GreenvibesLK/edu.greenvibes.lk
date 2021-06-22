@@ -642,16 +642,14 @@
                 </div>
 
 
+   <footer id="footer">
 
-
-
-                
-
-
-
-    
-
-               
+            <div class="footer-bottom">
+                <div class="container text-center">
+                    <p><a href="https://www.greenvibes.lk/">Powerd by GreenVibes Technologies (pvt) Ltd</a> &copy; 2021  </p>
+                </div>
+            </div>
+        </footer>
 
 
 
@@ -669,6 +667,41 @@
 <script type="text/javascript" src="js/theia-sticky-sidebar.min.js"></script>
 <script type="text/javascript" src="js/switcher.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="2163813eeff21f7d96ef5710-|49" defer=""></script>
+
+<script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en',
+                    layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT
+                }, 'google_translate_element');
+            }
+
+            function triggerHtmlEvent(element, eventName) {
+                var event;
+                if (document.createEvent) {
+                    event = document.createEvent('HTMLEvents');
+                    event.initEvent(eventName, true, true);
+                    element.dispatchEvent(event);
+                } else {
+                    event = document.createEventObject();
+                    event.eventType = eventName;
+                    element.fireEvent('on' + event.eventType, event);
+                }
+            }
+
+            jQuery('.lang-select').click(function() {
+                var theLang = jQuery(this).attr('data-lang');
+                jQuery('.goog-te-combo').val(theLang);
+
+                //alert(jQuery(this).attr('href'));
+                window.location = jQuery(this).attr('href');
+                location.reload();
+
+            });
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
 </body>
