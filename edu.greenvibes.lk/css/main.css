@@ -1080,3 +1080,287 @@ img.mfp-img {
     opacity: 1
 }
 
+/*First Div Section*/
+.section {
+    position: relative
+}
+
+.cat-menu {
+    position: absolute;
+    top: 10px;
+    right: 0
+}
+
+.section>.cat-menu {
+    visibility: hidden
+}
+
+.section:hover>.cat-menu {
+    visibility: visible
+}
+
+.cat-menu a {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    color: #525b6e;
+    border-bottom: 2px solid transparent
+}
+
+.list-post {
+    padding-bottom: 10px
+}
+
+.list-post li {
+    border-top: 1px solid #eee
+}
+
+.list-post li a {
+    display: block;
+    padding: 17px 30px;
+    color: #000
+}
+
+.list-post li a:hover {
+    color: #9c9c9c
+}
+
+.list-post li a i {
+    float: right
+}
+
+.small-post .post-content {
+    padding: 20px 20px 0
+}
+
+.post.small-post .entry-title {
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 5px!important
+}
+
+.entry-content {
+    color: #888;
+    font-size: 14px;
+    font-weight: 300
+}
+
+.left-content .post .entry-title {
+    margin-bottom: 20px;
+    margin-top: 12px
+}
+
+#photo-gallery {
+    background-color: #fff
+}
+
+#photo-gallery .carousel-item h2 {
+    font-size: 18px;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+#photo-gallery .carousel-item h2 a {
+    color: #000
+}
+
+#photo-gallery .carousel-item h2 a:hover {
+    color: #aeaeae
+}
+
+.gallery-indicators {
+    position: inherit;
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+    text-align: left;
+    padding: 5px 30px;
+    justify-content: left
+}
+
+.gallery-indicators li,
+.gallery-indicators li.active {
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    margin: 3px;
+    text-indent: inherit
+}
+
+.gallery-indicators li {
+    opacity: .4
+}
+
+.gallery-indicators li.active,
+.gallery-indicators li:hover {
+    opacity: 1
+}
+
+.gallery-turner {
+    position: absolute;
+    right: 28px;
+    bottom: 37px;
+    font-size: 25px;
+    z-index: 50
+}
+
+.gallery-turner a {
+    margin: 5px
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2
+}
+
+.health-feature {
+    overflow: hidden;
+    max-height: 185px
+}
+
+.left-content .post.medium-post .entry-title {
+    margin-bottom: 0
+}
+
+.health-section .entry-header,
+.health-section .post-content {
+    width: 50%;
+    float: left
+}
+
+.health-feature .post .entry-title {
+    line-height: 22px
+}
+
+.health-section .small-post .entry-header {
+    max-width: 100px;
+    float: left
+}
+
+.health-section .small-post .entry-title {
+    text-transform: initial
+}
+
+.health-section .small-post {
+    max-height: 95px
+}
+
+.health-section .small-post .post-content {
+    padding: 15px;
+    width: 60%;
+    float: left
+}
+
+.football-result .featured-result {
+    background-image: url(../images/others/league-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2f5088;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px
+}
+
+.football-result .featured-result h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-transform: uppercase
+}
+
+.featured-result .verses {
+    font-size: 24px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px
+}
+
+.featured-result .match-result {
+    font-size: 24px
+}
+
+.league-result {
+    background-color: #fff;
+    text-align: center
+}
+
+.league-result ul li {
+    border-bottom: 1px solid #f2f3f5;
+    padding: 25px 10px
+}
+
+.league-result img {
+    display: inline-block;
+    margin-top: -3px;
+    width: 20px
+}
+
+.league-result span {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 5px
+}
+
+.league-result .col-xs-4 {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.video-section .video-catagory {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    font-size: 11px;
+    text-transform: uppercase
+}
+
+.video-post-list .post,
+.widget .post-list .post {
+    max-height: 100px
+}
+
+.video-post-list .entry-header,
+.widget .post-list .entry-header {
+    float: left;
+    width: 40%
+}
+
+.video-post-list .entry-thumbnail,
+.widget .post-list .entry-thumbnail {
+    height: 100px
+}
+
+.video-post-list .post-content,
+.widget .post-list .post-content {
+    float: left;
+    width: 60%;
+    padding: 20px 15px
+}
+
+ /*Secound Div Section*/
+
