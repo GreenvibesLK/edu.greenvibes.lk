@@ -2149,3 +2149,343 @@ img.mfp-img {
 }
 
 /*Footer Listing & Others*/
+
+
+
+
+.top-add {
+    overflow: hidden;
+    margin: 30px 0;
+    width: 100%
+}
+
+.top-add .navbar-header {
+    margin-top: 15px
+}
+
+.homepage-two #navigation {
+    background-color: transparent
+}
+
+.homepage-two #menubar {
+    background-color: #fff
+}
+
+#breaking-news {
+    background-color: #fff;
+    overflow: hidden;
+    margin: 25px 0;
+    border-radius: 3px
+}
+
+#breaking-news span {
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 25px
+}
+
+#breaking-news ul li {
+    padding: 10px 20px
+}
+
+#breaking-news ul li i {
+    margin-right: 10px
+}
+
+#breaking-news ul li a {
+    color: #525b6e
+}
+
+#breaking-news ul li a:hover {
+    color: #000
+}
+
+.box-width {
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: #fff
+}
+
+#main-wrapper {
+    background-color: #f2f3f5;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .175);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .175);
+    overflow: hidden
+}
+
+#main-slider,
+#main-slider-two {
+    height: 350px;
+    overflow: hidden
+}
+
+#main-slider .owl-item,
+#main-slider .feature-post,
+#main-slider-two .owl-item,
+#main-slider-two .feature-post {
+    height: 350px;
+    border-radius: 0;
+    margin-top: 0
+}
+
+#main-slider .feature-post .catagory,
+#main-slider-two .feature-post .catagory {
+    position: initial;
+    display: inline-block;
+    margin-bottom: 5px
+}
+
+#main-slider .feature-post .entry-title,
+#main-slider-two .feature-post .entry-title {
+    font-size: 20px;
+    line-height: 22px
+}
+
+#main-slider .feature-post .post-content,
+#main-slider-two .feature-post .post-content {
+    border-radius: 0
+}
+
+.homepage-four .navbar,
+.homepage-five .navbar {
+    margin-bottom: 0
+}
+
+.homepage-four .navbar-brand,
+.homepage-five .navbar-brand {
+    height: 50px
+}
+
+.homepage-five #main-slider {
+    margin-top: 40px
+}
+
+.homepage-five #date-time {
+    border-left: 0;
+    padding-left: 0;
+    margin-left: 0
+}
+
+.homepage-five #weather {
+    padding-right: 20px
+}
+
+.homepage-five .language-dropdown,
+.homepage-five #date-time,
+.homepage-five #weather {
+    line-height: 42px
+}
+
+.homepage-five #weather,
+.homepage-five .searchNlogin li {
+    border-left: 1px solid #dedfe0
+}
+
+.homepage-five #weather {
+    padding-right: 20px
+}
+
+.homepage-five .searchNlogin {
+    margin-right: 0
+}
+
+.homepage-five .searchNlogin li {
+    padding: 10px 15px
+}
+
+.homepage-five .search {
+    right: 88px;
+    border-left: 1px solid #dedfe0
+}
+
+.homepage-five .search-form {
+    height: 42px
+}
+
+.homepage-five .nav>li>a {
+    padding: 10px 12px;
+    line-height: 30px
+}
+
+.homepage-two.fixed-nav .sticky-nav .top-add {
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0
+}
+
+.homepage-two.fixed-nav .sticky-nav #menubar {
+    float: right
+}
+
+.homepage-two.fixed-nav .sticky-nav #mainmenu {
+    float: right!important
+}
+
+.homepage-two.fixed-nav .sticky-nav #mainmenu .dropdown-menu {
+    left: auto;
+    right: 0
+}
+
+.homepage-two.fixed-nav .sticky-nav .top-add .navbar-right {
+    display: none
+}
+
+.homepage-two.fixed-nav .sticky-nav .top-add .navbar-header {
+    margin-top: 0
+}
+
+.homepage-two.fixed-nav #navigation .sticky-nav .navbar-nav {
+    margin-left: 90px
+}
+
+.homepage-two.fixed-nav #navigation .sticky-nav {
+    padding: 0 15px;
+    border-bottom: 1px solid #ddd
+}
+
+.homepage-two.fixed-nav #navigation .sticky-nav .navbar-brand {
+    margin-left: 0
+}
+
+.author-details {
+    background-color: #fff;
+    margin: 30px 0;
+    font-size: 14px;
+    overflow: hidden
+}
+
+.author-details .author-heading {
+    background-image: url(../images/others/author-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #004981;
+    color: #fff;
+    position: relative;
+    min-height: 200px;
+    border-radius: 4px 4px 0 0
+}
+
+.author-details .author-profile {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    left: 0;
+    font-size: 16px;
+    padding: 0 45px
+}
+
+.author-details .author-profile h1 {
+    margin-bottom: 0
+}
+
+.author-profile .author-gravatar {
+    float: left;
+    margin-right: 25px
+}
+
+.author-profile .author-gravatar img {
+    border-radius: 3px
+}
+
+.author-profile .author-social {
+    position: absolute;
+    right: 30px;
+    bottom: 10px
+}
+
+.author-profile .author-social .social-icons li {
+    margin-right: 0
+}
+
+.author-profile .author-social .social-icons li i,
+.author-listing .single-author .social-icons li i {
+    font-size: 14px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    background-color: #d2d2d4
+}
+
+.author-profile .author-social .social-icons li i {
+    color: #00223c
+}
+
+.author-listing .single-author .social-icons li i {
+    color: #fff
+}
+
+.author-profile .author-social .social-icons li a:hover i,
+.author-listing .single-author .social-icons li a:hover i {
+    color: #fff
+}
+
+.author-details .author-info {
+    padding: 35px 45px;
+    color: #888;
+    line-height: 24px
+}
+
+.author-details .author-info h3 {
+    margin-top: 0;
+    color: #525b6e;
+    font-size: 18px
+}
+
+.author-listing {
+    margin-top: 30px
+}
+
+.author-listing .single-author {
+    margin-bottom: 30px;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    padding-bottom: 30px;
+    border-radius: 3px
+}
+
+.author-listing .single-author .author-bg {
+    min-height: 110px
+}
+
+.author-listing .single-author img {
+    display: inline-block;
+    border-radius: 3px 3px 0 0
+}
+
+.author-listing .single-author .author-image {
+    margin-top: -41px
+}
+
+.author-listing .single-author .author-image img {
+    height: 82px;
+    width: 82px;
+    border-radius: 3px
+}
+
+.author-listing .single-author h2 {
+    margin-bottom: 0;
+    margin-top: 20px
+}
+
+.author-listing .single-author h2 a {
+    color: #000
+}
+
+.author-listing .single-author .social-icons li {
+    margin-right: 0
+}
+
+.author-listing .single-author .author-info {
+    margin-bottom: 20px;
+    padding: 0 15px
+}
+
+/* About us & Others */
