@@ -1375,86 +1375,6 @@ img.mfp-img {
     color: #00a651
 }
 
-.social-icons li {
-    margin-right: 12px
-}
-
-.social-icons li:last-child {
-    margin-right: 0
-}
-
-.social-icons a i {
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    display: block;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    border-radius: 4px;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
-}
-
-.social-icons a .fa-facebook {
-    background-color: #4968a9
-}
-
-.social-icons a .fa-twitter {
-    background-color: #00aeef
-}
-
-.social-icons a .fa-google-plus {
-    background-color: #d9232d
-}
-
-.social-icons a .fa-linkedin {
-    background-color: #0072bc
-}
-
-.social-icons a .fa-youtube {
-    background-color: #ed1c24
-}
-
-.social-icons a:hover .fa-facebook,
-.author-listing .single-author .social-icons a:hover .fa-facebook,
-.author-social .social-icons a:hover .fa-facebook {
-    background-color: #456098
-}
-
-.social-icons a:hover .fa-twitter,
-.author-listing .single-author .social-icons a:hover .fa-twitter,
-.author-social .social-icons a:hover .fa-twitter {
-    background-color: #039cd5
-}
-
-.social-icons a:hover .fa-google-plus,
-.author-listing .single-author .social-icons a:hover .fa-google-plus,
-.author-social .social-icons a:hover .fa-google-plus {
-    background-color: #c2242c
-}
-
-.social-icons a:hover .fa-linkedin,
-.author-listing .single-author .social-icons a:hover .fa-linkedin,
-.author-social .social-icons a:hover .fa-linkedin {
-    background-color: #025e9a
-}
-
-.social-icons a:hover .fa-youtube,
-.author-listing .single-author .social-icons a:hover .fa-youtube,
-.author-social .social-icons a:hover .fa-youtube {
-    background-color: #ce1b22
-}
-
-.social-icons a:hover .fa-pinterest,
-.author-listing .single-author .social-icons a:hover .fa-pinterest,
-.author-social .social-icons a:hover .fa-pinterest {
-    background-color: #b91d23
-}
-
 .widget {
     margin-bottom: 30px
 }
@@ -2682,37 +2602,6 @@ img.mfp-img {
 .ragister-account .new-user {
     margin-top: 25px;
     color: #999
-}
-
-.facebook-login,
-.twitter-login {
-    display: inline-block;
-    padding: 15px;
-    color: #fff;
-    margin-bottom: 35px;
-    font-size: 18px;
-    width: 49%
-}
-
-.facebook-login {
-    background-color: #506dab
-}
-
-.twitter-login {
-    background-color: #27c4fe
-}
-
-.ragister-account .facebook-login:hover,
-.ragister-account .twitter-login:hover {
-    color: #fff
-}
-
-.facebook-login:hover {
-    background-color: #425e9a
-}
-
-.twitter-login:hover {
-    background-color: #10aee8
 }
 
 .login-options {
