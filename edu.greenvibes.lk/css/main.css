@@ -1697,7 +1697,7 @@ img.mfp-img {
 
 .footer-top {
     overflow: hidden;
-    background-color: #e6e7e8
+    background-color: #e6e7e8;
 }
 
 .logo-icon {
@@ -1786,7 +1786,7 @@ img.mfp-img {
 }
 
 .footer-bottom {
-    background-color: #1f2021;
+    background-color: #f99245;
     color: #fff;
     padding-top: 20px;
     padding-bottom: 10px

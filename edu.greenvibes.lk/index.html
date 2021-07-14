@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body oncontextmenu="return false;">
 <header>
     <div id="main-wrapper" class="homepage">
         <header id="navigation">
@@ -72,10 +72,10 @@
                             <li><a href="#">5 Schoolership Past-Papers</a></li>
                         </ul>
                     </li>
-                    <li class="politics dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">School Past-Papers</a>
+                    <li class="politics dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Model-Papers</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">A/L's Past-Papers</a></li>
-                            <li><a href="#">O/L's Past-Papers</a></li>
+                            <li><a href="#">A/L's Model-Papers</a></li>
+                            <li><a href="#">O/L's Model-Papers</a></li>
                         </ul>
                     </li>
                     <li class="environment dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Other</a>
@@ -633,6 +633,27 @@
 
         <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="2163813eeff21f7d96ef5710-|49" defer=""></script>
         <script type="text/javascript">
+
+            document.onkeydown=function(e)
+       {
+        if (event.keyCode==123) 
+        {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0))
+         {
+            return false;
+         }
+         if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0))
+         {
+            return false;
+         }
+         if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0))
+         {
+            return false;
+         }
+
+       }
     
 
             function triggerHtmlEvent(element, eventName) {
