@@ -129,14 +129,18 @@
         </div>
     </div>
 </header>     
+<div class="container">
 <?php 
     if(isset($_GET['s'])){
         require_once('search.php');
     }
  ?>
 
+<<<<<<< HEAD
 <div class="container">
 
+=======
+>>>>>>> 2b6372814158e6fdd06dd9403febe2cc24cedb38
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
 <div class="elfsight-app-d42c6941-d8a2-47ec-a56f-26e31354a6d8"></div>
