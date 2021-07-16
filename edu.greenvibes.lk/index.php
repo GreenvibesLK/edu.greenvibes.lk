@@ -129,15 +129,12 @@
         </div>
     </div>
 </header>     
+<div class="container">
 <?php 
     if(isset($_GET['s'])){
         require_once('search.php');
     }
  ?>
-
-
-
-<div class="container">
 
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
