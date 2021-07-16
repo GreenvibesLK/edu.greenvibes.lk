@@ -57,15 +57,15 @@
         </div>
 
         <div class="contact-form">
-          <form action="php/message.php" autocomplete="off">
+          <form action="php/message.php" method="post" autocomplete="off">
             <h3 class="title">Contact us</h3>
             <div class="input-container">
-              <input type="text" name="name" class="input" />
+              <input type="text" name="name" class="input" required="name" />
               <label for="">Username</label>
               <span>Username</span>
             </div>
             <div class="input-container">
-              <input type="email" name="email" class="input" />
+              <input type="email" name="email" class="input" required="emails" />
               <label for="">Email</label>
               <span>Email</span>
             </div>

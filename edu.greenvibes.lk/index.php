@@ -135,8 +135,6 @@
     }
  ?>
 
-
-
 <div class="container">
 
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
