@@ -291,7 +291,7 @@ img.mfp-img {
     left: 0;
     top: -1px;
     z-index: 9999;
-    background: #fff
+    background: #fe1818;
 }
 
 #navigation .sticky-nav #topbar {
@@ -473,13 +473,13 @@ img.mfp-img {
 }
 
 #navigation {
-    background-color: #fff;
+    background-color: #fe1818;
     width: 100%;
     clear: both
 }
 
 #navigation .navbar .topbar {
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid #fe1818
 }
 
 #topbar {
@@ -501,7 +501,7 @@ img.mfp-img {
 #date-time,
 
 #date-time,{
-    border-left: 1px solid #ebecee
+    border-left: 1px solid #fe1818
 }
 
 .searchNlogin {
@@ -511,7 +511,7 @@ img.mfp-img {
 
 .searchNlogin li {
     float: left;
-    border-left: 1px solid #ebecee;
+    border-left: 1px solid #fe1818;
     padding: 15px 20px;
     color: #aeaeae;
     cursor: pointer;
