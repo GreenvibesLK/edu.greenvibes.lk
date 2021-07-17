@@ -1,8 +1,8 @@
 body {
     font-family: signika negative, sans-serif;
     font-size: 16px;
-    color: #000;
-    background-color: #f2f3f5
+    color: white;
+    background-color: #f2f3f5;
 }
 
 ul {
@@ -16,11 +16,11 @@ ul {
     outline: none;
     outline-offset: 0;
     text-decoration: none;
-    background: 0 0
+    background: 0 0;
 }
 
 a {
-    color: #343a40;
+    color: white;
     text-decoration: none;
     -webkit-transition: 300ms;
     -moz-transition: 300ms;
